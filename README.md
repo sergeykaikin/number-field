@@ -1,4 +1,4 @@
-# MATCHESFASHION technical test
+# Number selector component
 
 ## Requirements
 
@@ -8,12 +8,6 @@
 * It should allow typing a number manually or modifying the selected value by pressing the + or - buttons (+ and - will increase / decrease the value by 1)
 * It shouldn't allow negative numbers
 * The quantity selected should be also displayed in the parent component in real time (see `QuantityDisplayComponent`)
-
-## Notes
-* Make sure the solution is tested and the edge cases are handled
-* Don't worry too much about styling it, we're mostly interested in the functionality
-* Feel free to add any npm libraries, including styling libraries if you feel it would help
-* Feel free to use SCSS or any Styled Components library instead of CSS for the styling
 
 ## Available Scripts
 
