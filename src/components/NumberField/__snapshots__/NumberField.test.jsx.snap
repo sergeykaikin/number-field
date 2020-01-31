@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumberField "minus" and "plus" buttons enabled 1`] = `
+<div
+  className="number-field"
+>
+  <label
+    className="number-field__label"
+    htmlFor="number-field-2"
+  >
+    test
+  </label>
+  <button
+    className="number-field__button number-field__button--minus"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <input
+    className="number-field__input"
+    id="number-field-2"
+    inputMode="numeric"
+    min="0"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    onPaste={[Function]}
+    pattern="[0-9]*"
+    type="text"
+    value={101}
+  />
+  <button
+    className="number-field__button number-field__button--plus"
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+</div>
+`;
+
+exports[`NumberField "minus" button disabled 1`] = `
+<div
+  className="number-field"
+>
+  <label
+    className="number-field__label"
+    htmlFor="number-field-1"
+  >
+    test
+  </label>
+  <button
+    className="number-field__button number-field__button--minus"
+    disabled={true}
+    type="button"
+  >
+    -
+  </button>
+  <input
+    className="number-field__input"
+    id="number-field-1"
+    inputMode="numeric"
+    min="0"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    onPaste={[Function]}
+    pattern="[0-9]*"
+    type="text"
+    value={0}
+  />
+  <button
+    className="number-field__button number-field__button--plus"
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+</div>
+`;

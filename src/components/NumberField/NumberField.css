@@ -1,0 +1,43 @@
+.number-field {
+  border: solid 1px #ccc;
+  background-color: #ddd;
+  width: 200px;
+}
+
+.number-field .number-field__label {
+  display: block;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.number-field .number-field__input {
+  display: inline-block;
+  vertical-align: bottom;
+  border: none;
+  border-radius: 0px;
+  padding: 0px;
+  width: calc(200px - 40px);
+  height: 20px;
+  text-align: center;
+}
+
+.number-field .number-field__button {
+  user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: bottom;
+  border: 0;
+  background-color: #eee;
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.number-field .number-field__button.number-field__button:disabled {
+  background: transparent;
+  color: gray;
+  cursor: not-allowed;
+}
